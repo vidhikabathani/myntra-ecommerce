@@ -8,6 +8,8 @@ import Beauty from '../pages/Beauty'
 import Studio from '../pages/Studio'
 import Login from '../pages/Login'
 import SignUp from '../pages/SignUp'
+import Singlepage from '../pages/Singlepage'
+import Cart from '../pages/Cart'
 
 function AllRouter() {
     return (
@@ -21,6 +23,8 @@ function AllRouter() {
                 <Route path='/Signup' element={<SignUp/>}></Route>
                 <Route path='/Beauty' element={<Beauty/>}></Route>
                 <Route path='/Studio' element={<Studio/>}></Route>
+                <Route path='/Cart' element={<Cart/>}></Route>
+                <Route path='/product/:id' element={<Singlepage/>}></Route>
             </Routes>
         </div>
     )

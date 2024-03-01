@@ -7,6 +7,14 @@
       "password": "000"
     }
   ],
+  "cart": [
+    {
+      "id": "272c",
+      "img1": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20528534/2023/3/29/e476a3a0-e880-4188-9df0-0508bfe8d31c1680067960195-Nautica-Men-Typography-Printed-Mid-Rise-Shorts-With-Side-Str-1.jpg",
+      "prodcuts_name": "Nautica",
+      "seling_price": 1479
+    }
+  ],
   "products": [
     {
       "id": "1",

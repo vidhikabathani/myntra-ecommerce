@@ -15,9 +15,9 @@ function Navbarr() {
                 <Link to='/Beauty' id='navbar' className='fw-semibold text-uppercase fw-bolder text-decoration-none text-dark'>beauty</Link>
                 <Link to='/Studio' id='navbar' className='fw-semibold text-uppercase fw-bolder text-decoration-none text-dark'>studio</Link>
                 <input placeholder='Search for products, brand and more' className='input ps-3 pt-1 pb-2'></input>
-                <Link to='/Login' id='navbar' className='fw-semibold text-uppercase fw-bolder text-decoration-none text-dark'>Profile</Link>
+                <Link to='/Login' id='navbar' className='fw-semibold text-uppercase fw-bolder text-decoration-none text-dark'>Login</Link>
                 <Link to='/Signup' id='navbar' className='fw-semibold text-uppercase fw-bolder text-decoration-none text-dark'>Signup</Link>
-                <Link to='/Studio' id='navbar' className='fw-semibold text-uppercase fw-bolder text-decoration-none text-dark'>studio</Link>
+                <Link to='/Cart' id='navbar' className='fw-semibold text-uppercase fw-bolder text-decoration-none text-dark'>Bag</Link>
             </div>
         </div>
     )

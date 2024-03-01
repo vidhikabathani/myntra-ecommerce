@@ -1,0 +1,67 @@
+@import url(stylesheet.css);
+/* .roboto{
+    font-family: var(--roboto);
+}
+:root{
+    --roboto:'Roboto';
+} */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+#nav{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    font-size: 12px;
+    
+}
+.input{
+    width: 250px;
+    border: none;
+    background-color: #f5f5f6;
+    font-size: 13px;
+}
+.online{
+    font-size: 11px;
+}
+.shopping{
+    font-size: 14px;
+    list-style: none;
+    margin-top: 6px;
+    color: #696b79;
+}
+.play{
+    width: 100px;
+}
+.play1{
+    width: 22px;
+}
+.play2{
+    width: 50px;
+}
+.pro{
+    width: 500px;
+}
+.w-h{
+    width: 253px;
+    height: 331px;
+}
+.w-h1{
+width: 310px;
+height: 331px;
+}
+.pro-m{
+   
+    margin-left: 290px;
+}

@@ -17,12 +17,13 @@ function Men() {
                 data.map((ele) => {
                     if (ele.gender == "male") {
                         return (
-                            <NavLink to={`/product/${ele.id}`}>
-                            <div className='flex'>
-                                <div className="col-md-4">
+                            <NavLink to={`/product/${ele.id}`} className="text-decoration-none">
+                            <div id='flex' className='border m-2 text-dark'>
+                                <div className="col-4">
                                 <img src={ele.img1} alt="" />
                                 <h3>{ele.prodcuts_name}</h3>
                                 <h5 className='f-blue'>Rs. {ele.seling_price}</h5>
+                                <p>view more details</p>
                                 </div>
                             </div>
                             </NavLink>

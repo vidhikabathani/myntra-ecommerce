@@ -67,6 +67,7 @@ height: 331px;
 }
 
 
-.flex{
+#flex{
     display: flex;
+    flex-wrap: wrap;
 }
